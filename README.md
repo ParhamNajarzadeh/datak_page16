@@ -1,19 +1,19 @@
-# EDA برای Page 16
+# EDA for Page 16
 
-این ابزار CPU-only برای بررسی اولیهٔ PDF روزنامهٔ فارسی است. متن خام، مختصات و منشأ حفظ می‌شوند. خروجی PDF به‌صورت مقاله یا ترتیب صحیح خواندن معرفی نمی‌شود.
+This CPU-only tool is for preliminary inspection of a Persian newspaper PDF. Raw text, coordinates, and provenance are preserved. PDF output is not presented as an article or correct reading order.
 
-## نوتبوک انگلیسی برای ارائه
+## English notebook for presentation
 
-`Page16_EDA.ipynb` شامل ۱۶ بخش، ۳۳ سلول، نمودارها و تصاویر اجراشده، insightهای محاسبه‌شده و پیشنهادهای معماری/آزمایش است. خروجی‌های ذخیره‌شده برای مشاهده موجودند؛ برای اجرای مجدد، پوشهٔ `outputs` باید کنار نوتبوک باشد.
+`Page16_EDA.ipynb` contains 16 sections, 33 cells, executed charts and images, computed insights, and architecture/experiment suggestions. Saved outputs are available for viewing; to re-run, the `outputs` folder must be next to the notebook.
 
 ```powershell
 python -m pip install -r requirements-notebook.txt
 python -m jupyterlab Page16_EDA.ipynb
 ```
 
-در Jupyter گزینهٔ `Run All Cells` را اجرا کنید. مسیر داده در متغیر `OUTPUT_DIR` قابل تغییر است. `build_notebook.py` منبع بازتولید نوتبوک است؛ اجرای آن فایل ipynb را با نسخهٔ بدون خروجی بازسازی می‌کند، پس اگر نوتبوک را دستی ویرایش کرده‌اید ابتدا تغییرها را حفظ کنید.
+In Jupyter, run `Run All Cells`. The data path can be changed via the `OUTPUT_DIR` variable. `build_notebook.py` is the source for reproducing the notebook; running it rebuilds the ipynb file as a version without outputs, so if you have manually edited the notebook, save your changes first.
 
-## نصب و اجرا — PowerShell
+## Installation and execution — PowerShell
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -21,26 +21,26 @@ python eda.py analyze "C:\Users\Mandish\Desktop\1-7.pdf" "C:\Users\Mandish\Deskt
 Start-Process outputs\report.html
 ```
 
-برای بررسی سریع بدون تصویر و crop:
+For a quick check without images and crops:
 
 ```powershell
 python eda.py analyze "C:\Users\Mandish\Desktop\1-8.pdf" --no-render --output outputs-fast
 ```
 
-## چه چیزی بررسی می‌شود؟
+## What is inspected?
 
-- تعداد صفحات، ابعاد، rotation، metadata و SHA256 فایل ورودی.
-- تعداد نویسه/خط/بلوک، سهم نویسه‌های خط عربی، نویسه‌های مشکوک و نیم‌فاصله؛ این‌ها فقط **triage** هستند، نه CER یا تضمین کیفیت.
-- بلوک، خط، span، فونت و bbox بدون مرتب‌سازی مصنوعی کل صفحه.
-- تصویرهای واقعاً قرارگرفته در صفحه، ابعاد پیکسلی و DPI مؤثر از transform قرارگیری؛ شامل تصویرهای inline. DPI مؤثر معادل DPI اسکنر نیست. شمارش placement با شمارش فایل تصویر یکتا تفاوت دارد.
-- پوشش تقریبی اجتماع bboxها روی شبکهٔ ۱۰۰×۱۰۰؛ پوشش جعبه‌ها معادل پوشش جوهر نیست و image coverage به‌تنهایی نوع اسکن را ثابت نمی‌کند.
-- نشانگرهای «ادامه/بقیه/باقی در/از صفحه ...»، شامل ارقام فارسی/عربی و برخی شماره‌های نوشتاری. نشانگر در سطح یک بلوک بررسی می‌شود؛ الگوهای دیگر و نشانگرهای شکسته بین بلوک‌ها ممکن است جا بیفتند.
-- عدد پیش از نشانگر نیز بررسی می‌شود. در نمونه‌ها استخراج `1414 بقیه در صفحه` مشاهده شد؛ برای اعداد تکراریِ خارج از بازه، مقصد قطعی `null` و عدد احتمالی در `number_candidates_needs_review` ثبت می‌شود. این مورد باید با تصویر تأیید شود.
-- نامزدهای شمارهٔ چاپی از خطوط عددی مستقل نزدیک بالا/پایین صفحه؛ شماره و تاریخ صرفاً پیشنهادند. نام روزنامه از metadata احتمالی جداست و خودکار تأیید نمی‌شود.
-- زمان استخراج، بررسی تصویر، render و کل پردازش/خروجی صفحه؛ p50/p95 و RSS نمونه‌برداری‌شدهٔ درخت پردازه.
-- پنج خط تصادفی قابل‌تکرار از هر صفحه به‌همراه crop برای رونویسی انسانی. برای تحلیل متن ریز/سخت، نمونه‌های هدفمند را هم اضافه کنید.
+- Page count, dimensions, rotation, metadata, and SHA256 of the input file.
+- Character/line/block counts, share of Arabic-script characters, suspicious characters, and ZWNJ; these are only **triage**, not CER or quality assurance.
+- Blocks, lines, spans, fonts, and bboxes without artificial whole-page sorting.
+- Images actually placed on the page, pixel dimensions, and effective DPI from placement transform; including inline images. Effective DPI is not equivalent to scanner DPI. Placement count differs from unique image file count.
+- Approximate coverage of the union of bboxes on a 100×100 grid; box coverage is not equivalent to ink coverage, and image coverage alone does not prove scan type.
+- Indicators of "continued/remainder/rest in/from page ...", including Persian/Arabic digits and some written-out numbers. The indicator is checked at the block level; other patterns and indicators broken across blocks may be missed.
+- The number before the indicator is also checked. In samples, extraction of `1414 بقیه در صفحه` was observed; for repeated numbers outside the range, the definitive destination is `null` and the possible number is recorded in `number_candidates_needs_review`. This case must be confirmed with the image.
+- Print-number candidates from standalone numeric lines near the top/bottom of the page; number and date are only suggestions. The newspaper name is separate from possible metadata and is not automatically confirmed.
+- Extraction time, image inspection, render, and total page processing/output time; p50/p95 and sampled RSS of the process tree.
+- Five reproducible random lines from each page along with crops for human transcription. For fine/hard text analysis, also add targeted samples.
 
-## ساختار خروجی
+## Output structure
 
 ```text
 outputs/
@@ -62,11 +62,11 @@ outputs/
       sample-00.png ...
 ```
 
-رنگ overlay: آبی = متن خام PDF، قرمز = بلوک دارای نشانگر ادامه، نارنجی = تصویر. شناسهٔ روی بلوک با `blocks.json` قابل تطبیق است. مختصات داده‌ها در pointهای PDF، با مبدأ بالا-چپ و دستگاه مختصات صفحهٔ unrotated است؛ برای تصویر نمایشی rotation اعمال می‌شود.
+Overlay colors: blue = raw PDF text, red = block containing continuation indicator, orange = image. The ID on the block can be matched with `blocks.json`. Data coordinates are in PDF points, with top-left origin and the unrotated page coordinate system; rotation is applied for the display image.
 
-## بررسی دو ادامهٔ مستقل ۲ ↔ ۱۴
+## Inspecting two independent continuations 2 ↔ 14
 
-ابتدا `markers.csv` و overlay صفحات ۲ و ۱۴ فایل `1-8.pdf` را بازبینی کنید. برای ساخت کاندیداهای دوطرفه، نگاشت **تأییدشده** از شمارهٔ PDF به شمارهٔ چاپی لازم است. مثلاً پس از تأیید دستی:
+First review `markers.csv` and the overlays of pages 2 and 14 of `1-8.pdf`. To build reciprocal candidates, a **confirmed** mapping from PDF number to print number is needed. For example, after manual confirmation:
 
 ```json
 {
@@ -74,28 +74,28 @@ outputs/
 }
 ```
 
-آن را در `page-map.json` ذخیره و اجرا کنید:
+Save it in `page-map.json` and run:
 
 ```powershell
 python eda.py analyze "C:\Users\Mandish\Desktop\1-8.pdf" --page-map page-map.json --output outputs-mapped
 ```
 
-`reciprocal-candidates.json` تمام زوج‌های سازگار با شماره‌های دوطرفه را تولید می‌کند، **نه دوختن مقاله**. دو ادامه به یک مقصد می‌توانند چهار زوج کاندیدا بسازند؛ این خروجی برای بررسی ابهام مفید است. نشانگر نیازمندی/آگهی نیز ثبت می‌شود و برچسب `needs_review` دارد؛ هیچ نشانگری خودکار به خبر تبدیل نمی‌شود. «صفحهٔ مقابل» مقصد عددی ندارد تا قواعد صفحه‌آرایی به‌صورت مستقل تأیید شوند.
+`reciprocal-candidates.json` generates all pairs compatible with reciprocal numbers, **not article stitching**. Two continuations to one destination can produce four candidate pairs; this output is useful for ambiguity review. Requirement/advertisement indicators are also recorded and labeled `needs_review`; no indicator is automatically converted into news. "Opposite page" has no numeric destination so that page-layout rules can be independently confirmed.
 
-## اندازه‌گیری CER واقعی
+## Measuring real CER
 
-در `annotation-lines.csv`، از روی crop رونویسی مستقل را در `reference` وارد کنید و `reviewed` را `1` بگذارید. ستون `prediction` متن استخراجی PDF است؛ برای مقایسهٔ OCR می‌توانید CSV جدا با همان reference و prediction موتور OCR بسازید. برای جلوگیری از سوگیری، هنگام رونویسی ستون prediction را مخفی کنید.
+In `annotation-lines.csv`, enter independent transcription from the crop into `reference` and set `reviewed` to `1`. The `prediction` column is the extracted PDF text; for OCR comparison you can create a separate CSV with the same reference and the OCR engine's prediction. To avoid bias, hide the prediction column while transcribing.
 
 ```powershell
 python eda.py cer "outputs\<file-stem>-<hash>\annotation-lines.csv" --output cer.json
 ```
 
-CER با فاصلهٔ ویرایشی Levenshtein و جمع خطاها تقسیم بر جمع طول reference محاسبه می‌شود، نه میانگین CER خطوط. نسخهٔ سخت‌گیرانه و نسخهٔ NFC + یکسان‌سازی ی/ک و شکل ارقام گزارش می‌شوند؛ فاصله، نیم‌فاصله و علائم حذف نمی‌شوند. reference خالیِ تأییدشده مجاز است؛ اگر مجموع طول reference صفر باشد CER تعریف نشده و `null` است. CER ممکن است بیش از ۱ باشد.
+CER is computed with Levenshtein edit distance and total errors divided by total reference length, not the average of line CERs. Strict and NFC + y/k and digit-shape normalization versions are reported; spaces, ZWNJ, and punctuation are not removed. An empty confirmed reference is allowed; if total reference length is zero, CER is undefined and `null`. CER can exceed 1.
 
-## محدودیت و تفسیر زمان
+## Limitations and timing interpretation
 
-این EDA شامل OCR، detector، گروه‌بندی مقاله، stitching یا مدل فشرده‌شده نیست. زمان آن **بودجهٔ ۲–۳ دقیقه‌ای سامانه را اثبات نمی‌کند**. زمان inspection/export شامل تولید تصویر، crop و فایل‌های صفحه است؛ hash اولیه و تولید گزارش نهایی خارج از آن‌اند. حالت `--no-render` را برای جداکردن هزینهٔ مشاهده‌سازی اجرا کنید. حافظه با فاصلهٔ ۵۰ میلی‌ثانیه نمونه‌برداری می‌شود و می‌تواند قله‌های بسیار کوتاه را جا بیندازد. اجراها sequential و تک‌worker هستند.
+This EDA does not include OCR, detector, article grouping, stitching, or a compressed model. Its timing **does not prove the 2–3 minute system budget**. Inspection/export time includes image generation, crop, and page files; initial hashing and final report generation are outside it. Run `--no-render` to separate visualization cost. Memory is sampled at 50 ms intervals and may miss very short peaks. Runs are sequential and single-worker.
 
-برای CER/IoU/دقت stitching و گزارش قبل/بعد از quantization، gold انسانی و اجرای مدل‌های واقعی لازم است. دادهٔ فاقد متن در خروجی مشخص می‌شود ولی OCR روی آن اجرا نمی‌شود. استخراج خوب متن لزوماً ترتیب یا املای صحیح نیست؛ فونت‌های دارای نگاشت Unicode خراب ممکن است از heuristic عبور کنند. text-normalized فقط NFC و یکسان‌سازی حروف/ارقام است و اصلاح املایی یا بازنویسی مولد انجام نمی‌دهد.
+For CER/IoU/stitching accuracy and before/after quantization reporting, human gold and real model runs are needed. Data lacking text is marked in the output but OCR is not run on it. Good text extraction is not necessarily correct order or spelling; fonts with broken Unicode mappings may pass the heuristic. text-normalized is only NFC and letter/digit normalization and does not perform spelling correction or generative rewriting.
 
-PyMuPDF مجوز AGPL یا تجاری دارد؛ شیوهٔ انتشار محصول باید با مجوز انتخابی سازگار باشد.
+PyMuPDF is licensed under AGPL or commercial terms; the product distribution method must be compatible with the chosen license.
