@@ -1,0 +1,838 @@
+[
+  {
+    "block_id": "1-7-b386efd9-p001-b0000",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      42.74300003051758,
+      218.4317626953125,
+      948.7120971679688,
+      228.4317626953125
+    ],
+    "text_raw": "      هزار تومان10 8225  شمـــاره 1448  ربیع الثانی18  30 Sep 2026  1405  مهر8   چهارشنبه  سال سی ام       روزنامه  صبح ایرانwww.inn.ir/sport\niranvarzeshii",
+    "text_normalized": "      هزار تومان10 8225  شمـــاره 1448  ربیع الثانی18  30 Sep 2026  1405  مهر8   چهارشنبه  سال سی ام       روزنامه  صبح ایرانwww.inn.ir/sport\niranvarzeshii",
+    "line_count": 2,
+    "quality": {
+      "characters": 155,
+      "nonspace_characters": 115,
+      "arabic_script_ratio": 0.5217391304347826,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0001",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      34.182098388671875,
+      1293.9052734375,
+      41.182098388671875,
+      1337.7113037109375
+    ],
+    "text_raw": "عکس : کمیته ملی المپیک",
+    "text_normalized": "عکس : کمیته ملی المپیک",
+    "line_count": 1,
+    "quality": {
+      "characters": 22,
+      "nonspace_characters": 18,
+      "arabic_script_ratio": 0.9444444444444444,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0002",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      585.0139770507812,
+      194.25994873046875,
+      589.7739868164062,
+      208.3299560546875
+    ],
+    "text_raw": "5",
+    "text_normalized": "5",
+    "line_count": 1,
+    "quality": {
+      "characters": 1,
+      "nonspace_characters": 1,
+      "arabic_script_ratio": 0.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0003",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      81.22460174560547,
+      1354.33740234375,
+      86.58460235595703,
+      1368.4073486328125
+    ],
+    "text_raw": "3",
+    "text_normalized": "3",
+    "line_count": 1,
+    "quality": {
+      "characters": 1,
+      "nonspace_characters": 1,
+      "arabic_script_ratio": 0.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0004",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      374.9159851074219,
+      164.6526641845703,
+      435.88800048828125,
+      175.58168029785156
+    ],
+    "text_raw": "  روز تا بازی های100",
+    "text_normalized": "  روز تا بازی های100",
+    "line_count": 1,
+    "quality": {
+      "characters": 20,
+      "nonspace_characters": 15,
+      "arabic_script_ratio": 0.8,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0005",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      375.5780029296875,
+      175.5026397705078,
+      437.132080078125,
+      186.43165588378906
+    ],
+    "text_raw": "جام ملت های آسیا",
+    "text_normalized": "جام ملت های آسیا",
+    "line_count": 1,
+    "quality": {
+      "characters": 16,
+      "nonspace_characters": 13,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0006",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      113.54000091552734,
+      253.96099853515625,
+      662.4349365234375,
+      277.33099365234375
+    ],
+    "text_raw": "فدراسیون برای بازگرداندن طلب استقالل دست به دامان هلدینگ خلیج فارس شد",
+    "text_normalized": "فدراسیون برای بازگرداندن طلب استقالل دست به دامان هلدینگ خلیج فارس شد",
+    "line_count": 1,
+    "quality": {
+      "characters": 69,
+      "nonspace_characters": 58,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0007",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      75.220703125,
+      373.11993408203125,
+      80.68070220947266,
+      387.18994140625
+    ],
+    "text_raw": "7",
+    "text_normalized": "7",
+    "line_count": 1,
+    "quality": {
+      "characters": 1,
+      "nonspace_characters": 1,
+      "arabic_script_ratio": 0.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0008",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      765.77099609375,
+      392.16192626953125,
+      945.590087890625,
+      481.70196533203125
+    ],
+    "text_raw": " چالش پرونده های حقوقی\nهمچنان آبی ها را تهدید می کند\n شکایت میلیون دالری\nاندونگ و کاریله",
+    "text_normalized": " چالش پرونده های حقوقی\nهمچنان آبی ها را تهدید می کند\n شکایت میلیون دالری\nاندونگ و کاریله",
+    "line_count": 4,
+    "quality": {
+      "characters": 88,
+      "nonspace_characters": 70,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0009",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      861.6929931640625,
+      493.88092041015625,
+      867.1530151367188,
+      507.950927734375
+    ],
+    "text_raw": "7",
+    "text_normalized": "7",
+    "line_count": 1,
+    "quality": {
+      "characters": 1,
+      "nonspace_characters": 1,
+      "arabic_script_ratio": 0.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0010",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      765.1329956054688,
+      253.0519561767578,
+      946.2127075195312,
+      342.59393310546875
+    ],
+    "text_raw": " چرخه معیوب گزینش کادرفنی\nهمچنان ادامه دارد\n قطبی؛گزینه مشکوک\nنیمکت امید",
+    "text_normalized": " چرخه معیوب گزینش کادرفنی\nهمچنان ادامه دارد\n قطبی؛گزینه مشکوک\nنیمکت امید",
+    "line_count": 4,
+    "quality": {
+      "characters": 72,
+      "nonspace_characters": 60,
+      "arabic_script_ratio": 0.9833333333333333,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0011",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      774.6710205078125,
+      511.47393798828125,
+      938.210205078125,
+      528.3859252929688
+    ],
+    "text_raw": " برای پایان دادن به قصه جنجالی\n ",
+    "text_normalized": " برای پایان دادن به قصه جنجالی\n ",
+    "line_count": 2,
+    "quality": {
+      "characters": 32,
+      "nonspace_characters": 24,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0012",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      789.6849975585938,
+      531.0199584960938,
+      923.8609619140625,
+      584.2160034179688
+    ],
+    "text_raw": " جام لیگ ناتمام\n \nبه میناب می رود",
+    "text_normalized": " جام لیگ ناتمام\n \nبه میناب می رود",
+    "line_count": 3,
+    "quality": {
+      "characters": 33,
+      "nonspace_characters": 24,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0013",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      764.8469848632812,
+      613.7579345703125,
+      946.49853515625,
+      703.2999877929688
+    ],
+    "text_raw": " چرا جوان های پرسپولیس\n \nناپدید می شوند؟\n عمری، مأمور شکستن\nتابوی دردناک",
+    "text_normalized": " چرا جوان های پرسپولیس\n \nناپدید می شوند؟\n عمری، مأمور شکستن\nتابوی دردناک",
+    "line_count": 5,
+    "quality": {
+      "characters": 72,
+      "nonspace_characters": 57,
+      "arabic_script_ratio": 0.9649122807017544,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0014",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      766.739013671875,
+      733.8229370117188,
+      948.9850463867188,
+      767.534912109375
+    ],
+    "text_raw": "ازبکستان ساخت\n \nژاپن سرمایه گذاری کرد،کره پیش رفت",
+    "text_normalized": "ازبکستان ساخت\n \nژاپن سرمایه گذاری کرد،کره پیش رفت",
+    "line_count": 3,
+    "quality": {
+      "characters": 49,
+      "nonspace_characters": 40,
+      "arabic_script_ratio": 0.975,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0015",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      788.4530029296875,
+      770.1679077148438,
+      927.2705688476562,
+      823.3639526367188
+    ],
+    "text_raw": "فوتبال پایه ایران\n \n دهه حسرت5",
+    "text_normalized": "فوتبال پایه ایران\n \n دهه حسرت5",
+    "line_count": 3,
+    "quality": {
+      "characters": 30,
+      "nonspace_characters": 23,
+      "arabic_script_ratio": 0.9565217391304348,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0016",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      862.1300048828125,
+      373.69000244140625,
+      866.7200317382812,
+      387.760009765625
+    ],
+    "text_raw": "2",
+    "text_normalized": "2",
+    "line_count": 1,
+    "quality": {
+      "characters": 1,
+      "nonspace_characters": 1,
+      "arabic_script_ratio": 0.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0017",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      862.1300048828125,
+      596.3529663085938,
+      866.7200317382812,
+      610.4229736328125
+    ],
+    "text_raw": "2",
+    "text_normalized": "2",
+    "line_count": 1,
+    "quality": {
+      "characters": 1,
+      "nonspace_characters": 1,
+      "arabic_script_ratio": 0.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0018",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      862.1209716796875,
+      715.81591796875,
+      866.73095703125,
+      729.8859252929688
+    ],
+    "text_raw": "6",
+    "text_normalized": "6",
+    "line_count": 1,
+    "quality": {
+      "characters": 1,
+      "nonspace_characters": 1,
+      "arabic_script_ratio": 0.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0019",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      861.68798828125,
+      867.7709350585938,
+      867.157958984375,
+      881.8409423828125
+    ],
+    "text_raw": "8",
+    "text_normalized": "8",
+    "line_count": 1,
+    "quality": {
+      "characters": 1,
+      "nonspace_characters": 1,
+      "arabic_script_ratio": 0.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0020",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      42.519500732421875,
+      280.428955078125,
+      733.4213256835938,
+      343.1589660644531
+    ],
+    "text_raw": " هزار دالری750 جنجال کمک بالعوض",
+    "text_normalized": " هزار دالری750 جنجال کمک بالعوض",
+    "line_count": 1,
+    "quality": {
+      "characters": 31,
+      "nonspace_characters": 26,
+      "arabic_script_ratio": 0.8846153846153846,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0021",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      140.13699340820312,
+      348.92596435546875,
+      635.8432006835938,
+      371.6619567871094
+    ],
+    "text_raw": " هزار دالر گرفتند، دو برابر مبلغ را درخواست کردند۳۶۰  \n   پول استقالل ربطی به جام ندارد:فدراسیون فوتبال \n ",
+    "text_normalized": " هزار دالر گرفتند، دو برابر مبلغ را درخواست کردند360  \n   پول استقالل ربطی به جام ندارد:فدراسیون فوتبال \n ",
+    "line_count": 3,
+    "quality": {
+      "characters": 106,
+      "nonspace_characters": 82,
+      "arabic_script_ratio": 0.9390243902439024,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0022",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      498.5780029296875,
+      65.31700134277344,
+      658.0567016601562,
+      81.3070068359375
+    ],
+    "text_raw": " مهر مجوز بازی دارد۱۹ گلر تراکتور تا",
+    "text_normalized": " مهر مجوز بازی دارد19 گلر تراکتور تا",
+    "line_count": 1,
+    "quality": {
+      "characters": 36,
+      "nonspace_characters": 29,
+      "arabic_script_ratio": 0.9310344827586207,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0023",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      522.135986328125,
+      80.04409790039062,
+      658.371826171875,
+      162.6826629638672
+    ],
+    "text_raw": " بیرانوند بعد از\n \nدیدار با استقالل \nسرباز می شود؟",
+    "text_normalized": " بیرانوند بعد از\n \nدیدار با استقالل \nسرباز می شود؟",
+    "line_count": 4,
+    "quality": {
+      "characters": 50,
+      "nonspace_characters": 38,
+      "arabic_script_ratio": 0.9736842105263158,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0024",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      804.6920166015625,
+      928.7709350585938,
+      949.6031494140625,
+      947.39990234375
+    ],
+    "text_raw": "هیچ‌مانعی،‌ایرانی‌را‌متوقف‌نمی‌کند",
+    "text_normalized": "هیچ‌مانعی،‌ایرانی‌را‌متوقف‌نمی‌کند",
+    "line_count": 1,
+    "quality": {
+      "characters": 34,
+      "nonspace_characters": 34,
+      "arabic_script_ratio": 0.7941176470588235,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 6
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0025",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      763.965576171875,
+      988.2509765625,
+      949.67919921875,
+      1357.3134765625
+    ],
+    "text_raw": "باور این وضعیت برای همه محال اســـت. ایرانی ها می دانســـتند \nکاروان مـــا در چـــه شـــرایطی راهـــی بازی هـــای آســـیایی ناگویـــا \nمی شـــود و دنیا هـــم از ایـــن کاروان توقع معجزه نداشـــت.\nطالی دوره قبل ناممکن اســـت. جنگی 13 همه می گفتند تکرار\nکه به ما تحمیل شـــد و شـــرایط ناعادالنـــه ای که بـــرای ما ایجاد \nکردنـــد، اجازه هـــر نـــوع امیـــدواری و ســـفیدبینی را گرفته بود. \nهمـــه منتظر کارنامه ای پـــر از نمره مردودی بودنـــد، اما همه این \nپیش فرض ها باطل شـــد.\nچرخ بازی های آســـیایی شـــروع به حرکت کرد تا غیـــرت ایرانی \nخود را به دنیا نشـــان دهد. از بســـکتبال و کاراته و ووشـــو گرفته \nتا روئینگ، قایقرانی، دوومیدانی، ژیمناســـتیک، کبدی، کوراش، \nشمشـــیربازی، تیراندازی، پینگ پنگ و وزنه برداری.\nبرنز به دســـت آمـــد آن هم در حالـــی که هنوز 11 نقره و16 ،طـــال10\n تکواندو و کشـــتی وارد میدان نشـــده اند و مدال والیبال هم سر\nجای خود مانده اســـت.\nکاروان ایران غرق در شـــادی است چون درخشـــش ورزشکاران \nباغیـــرت ما، همه تیرگی ها و ســـیاهی ها را شســـته اســـت. حاال \nآســـمان ورزش ایـــران پـــر از نـــور مدال هایـــی اســـت کـــه همه \nپیش فرض هـــا را از بیـــن برده اند. ورزشـــکاران ما نشـــان دادند، \nدر ســـخت ترین شـــرایط چه همتی دارند و چگونـــه بلندپروازی \nمی کنند .\nطـــالی دیـــروز علـــی داودی در وزنه بـــرداری، تابـــش نـــور از دل \nناامیـــدی بـــود؛ طالیـــی که بـــه همه چســـبید.\nدرخشـــش دوومیدانـــی کاران جـــوان ما، همـــه را به آینـــده این \nرشـــته در ایـــران امیدوار کـــرد. ژیمناســـت های ما نشـــان دادند \nدیگـــر نباید مأیوســـانه به این رشـــته نگریســـت. ووشـــو، کاراته، \nروئینگ، قایقرانی، کبدی، تیراندازی، بســـکتبال، شمشـــیربازی \nو پینگ پنـــگ هـــم دل همـــه را به دســـت آوردند کـــه امیدواریم \nاین درخشـــش در والیبال، کشـــتی و تکواندو بـــا همین چگالی \nادامه پیـــدا کند.\nورزش ایـــران در این ایام ســـخت، دالورانه عمل کـــرد و روزهایی \nشـــاد ســـاخت؛ روزهایی که همه را به آینده امیدوار کرد و از همه \nمهم تـــر ایـــن حقیقت بزرگ اســـت که «هیـــچ مانعـــی نمی تواند \nایرانـــی را متوقف کند.»",
+    "text_normalized": "باور این وضعیت برای همه محال اســـت. ایرانی ها می دانســـتند \nکاروان مـــا در چـــه شـــرایطی راهـــی بازی هـــای آســـیایی ناگویـــا \nمی شـــود و دنیا هـــم از ایـــن کاروان توقع معجزه نداشـــت.\nطالی دوره قبل ناممکن اســـت. جنگی 13 همه می گفتند تکرار\nکه به ما تحمیل شـــد و شـــرایط ناعادالنـــه ای که بـــرای ما ایجاد \nکردنـــد، اجازه هـــر نـــوع امیـــدواری و ســـفیدبینی را گرفته بود. \nهمـــه منتظر کارنامه ای پـــر از نمره مردودی بودنـــد، اما همه این \nپیش فرض ها باطل شـــد.\nچرخ بازی های آســـیایی شـــروع به حرکت کرد تا غیـــرت ایرانی \nخود را به دنیا نشـــان دهد. از بســـکتبال و کاراته و ووشـــو گرفته \nتا روئینگ، قایقرانی، دوومیدانی، ژیمناســـتیک، کبدی، کوراش، \nشمشـــیربازی، تیراندازی، پینگ پنگ و وزنه برداری.\nبرنز به دســـت آمـــد آن هم در حالـــی که هنوز 11 نقره و16 ،طـــال10\n تکواندو و کشـــتی وارد میدان نشـــده اند و مدال والیبال هم سر\nجای خود مانده اســـت.\nکاروان ایران غرق در شـــادی است چون درخشـــش ورزشکاران \nباغیـــرت ما، همه تیرگی ها و ســـیاهی ها را شســـته اســـت. حاال \nآســـمان ورزش ایـــران پـــر از نـــور مدال هایـــی اســـت کـــه همه \nپیش فرض هـــا را از بیـــن برده اند. ورزشـــکاران ما نشـــان دادند، \nدر ســـخت ترین شـــرایط چه همتی دارند و چگونـــه بلندپروازی \nمی کنند .\nطـــالی دیـــروز علـــی داودی در وزنه بـــرداری، تابـــش نـــور از دل \nناامیـــدی بـــود؛ طالیـــی که بـــه همه چســـبید.\nدرخشـــش دوومیدانـــی کاران جـــوان ما، همـــه را به آینـــده این \nرشـــته در ایـــران امیدوار کـــرد. ژیمناســـت های ما نشـــان دادند \nدیگـــر نباید مأیوســـانه به این رشـــته نگریســـت. ووشـــو، کاراته، \nروئینگ، قایقرانی، کبدی، تیراندازی، بســـکتبال، شمشـــیربازی \nو پینگ پنـــگ هـــم دل همـــه را به دســـت آوردند کـــه امیدواریم \nاین درخشـــش در والیبال، کشـــتی و تکواندو بـــا همین چگالی \nادامه پیـــدا کند.\nورزش ایـــران در این ایام ســـخت، دالورانه عمل کـــرد و روزهایی \nشـــاد ســـاخت؛ روزهایی که همه را به آینده امیدوار کرد و از همه \nمهم تـــر ایـــن حقیقت بزرگ اســـت که «هیـــچ مانعـــی نمی تواند \nایرانـــی را متوقف کند.»",
+    "line_count": 34,
+    "quality": {
+      "characters": 1963,
+      "nonspace_characters": 1615,
+      "arabic_script_ratio": 0.9678018575851394,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0026",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      897.708984375,
+      902.1429443359375,
+      929.975830078125,
+      919.3389282226562
+    ],
+    "text_raw": "سرمقاله",
+    "text_normalized": "سرمقاله",
+    "line_count": 1,
+    "quality": {
+      "characters": 7,
+      "nonspace_characters": 7,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0027",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      912.02197265625,
+      954.5625,
+      949.6002197265625,
+      966.7429809570312
+    ],
+    "text_raw": "مجید‌سلطانی",
+    "text_normalized": "مجید‌سلطانی",
+    "line_count": 1,
+    "quality": {
+      "characters": 11,
+      "nonspace_characters": 11,
+      "arabic_script_ratio": 0.9090909090909091,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 1
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0028",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      930.39697265625,
+      966.013916015625,
+      949.6034545898438,
+      977.3819580078125
+    ],
+    "text_raw": "خبرنگار",
+    "text_normalized": "خبرنگار",
+    "line_count": 1,
+    "quality": {
+      "characters": 7,
+      "nonspace_characters": 7,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0029",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      552.906982421875,
+      163.19894409179688,
+      658.2039794921875,
+      190.92889404296875
+    ],
+    "text_raw": "   کمیسیون پزشکی\nمهرماه تشکیل خواهد شد۱5",
+    "text_normalized": "   کمیسیون پزشکی\nمهرماه تشکیل خواهد شد15",
+    "line_count": 2,
+    "quality": {
+      "characters": 40,
+      "nonspace_characters": 32,
+      "arabic_script_ratio": 0.9375,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0030",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      472.0050048828125,
+      1135.454345703125,
+      719.9818115234375,
+      1249.4150390625
+    ],
+    "text_raw": " کیش و مات عراقی\n \nبا رکوردشکنی هرکول ایرانی\nسنگین طالی\nطالی سنگین",
+    "text_normalized": " کیش و مات عراقی\n \nبا رکوردشکنی هرکول ایرانی\nسنگین طالی\nطالی سنگین",
+    "line_count": 5,
+    "quality": {
+      "characters": 66,
+      "nonspace_characters": 52,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0031",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      777.6690063476562,
+      343.56597900390625,
+      937.308349609375,
+      362.0086669921875
+    ],
+    "text_raw": "افشین‌در‌آستانه‌توافق‌نهایی‌با‌فدراسیون",
+    "text_normalized": "افشین‌در‌آستانه‌توافق‌نهایی‌با‌فدراسیون",
+    "line_count": 1,
+    "quality": {
+      "characters": 39,
+      "nonspace_characters": 39,
+      "arabic_script_ratio": 0.8461538461538461,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 6
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0032",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      770.9600219726562,
+      821.7769775390625,
+      944.0411987304688,
+      857.6605834960938
+    ],
+    "text_raw": "‌پول‌نباید‌جای‌استعداد‌را‌بگیرد:کربکندی\n‌فوتبال‌پایه‌بدون‌پشتوانه‌سازی‌رها‌شده:فریبا",
+    "text_normalized": "‌پول‌نباید‌جای‌استعداد‌را‌بگیرد:کربکندی\n‌فوتبال‌پایه‌بدون‌پشتوانه‌سازی‌رها‌شده:فریبا",
+    "line_count": 2,
+    "quality": {
+      "characters": 84,
+      "nonspace_characters": 83,
+      "arabic_script_ratio": 0.8192771084337349,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 13
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0033",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      528.4760131835938,
+      1271.6256103515625,
+      705.6338500976562,
+      1288.0338134765625
+    ],
+    "text_raw": "نقره ارزشمند امیریان در دو ومیدانی  ",
+    "text_normalized": "نقره ارزشمند امیریان در دو ومیدانی  ",
+    "line_count": 1,
+    "quality": {
+      "characters": 36,
+      "nonspace_characters": 29,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0034",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      502.5459899902344,
+      1251.61962890625,
+      705.6302490234375,
+      1268.02783203125
+    ],
+    "text_raw": "طالی نهم به نام کوراش؛ آتش بازی بریمانلو  ",
+    "text_normalized": "طالی نهم به نام کوراش؛ آتش بازی بریمانلو  ",
+    "line_count": 1,
+    "quality": {
+      "characters": 42,
+      "nonspace_characters": 33,
+      "arabic_script_ratio": 0.9696969696969697,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0035",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      549.0339965820312,
+      1291.772705078125,
+      705.6563110351562,
+      1308.180908203125
+    ],
+    "text_raw": "برنز امیر اسماعیلی در رینگ بوکس  ",
+    "text_normalized": "برنز امیر اسماعیلی در رینگ بوکس  ",
+    "line_count": 1,
+    "quality": {
+      "characters": 33,
+      "nonspace_characters": 26,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0036",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      529.0339965820312,
+      1311.6375732421875,
+      705.6563110351562,
+      1328.0457763671875
+    ],
+    "text_raw": "بهشتی، دومین برنزی دختران وزنه بردار  ",
+    "text_normalized": "بهشتی، دومین برنزی دختران وزنه بردار  ",
+    "line_count": 1,
+    "quality": {
+      "characters": 38,
+      "nonspace_characters": 31,
+      "arabic_script_ratio": 0.967741935483871,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  },
+  {
+    "block_id": "1-7-b386efd9-p001-b0037",
+    "pdf_page": 1,
+    "bbox_pdf_pt": [
+      525.6480102539062,
+      1332.0250244140625,
+      705.6321411132812,
+      1348.4332275390625
+    ],
+    "text_raw": " مدال برنز برای فاطمه برمکی  در کوراش  ",
+    "text_normalized": " مدال برنز برای فاطمه برمکی  در کوراش  ",
+    "line_count": 1,
+    "quality": {
+      "characters": 39,
+      "nonspace_characters": 29,
+      "arabic_script_ratio": 1.0,
+      "suspicious_character_ratio": 0.0,
+      "replacement_characters": 0,
+      "zwnj_count": 0
+    },
+    "type": "unclassified_text"
+  }
+]

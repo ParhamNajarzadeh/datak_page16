@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-10-07T16:22:20Z",
+  "python": "3.13.5",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 78 Stepping 3, GenuineIntel",
+  "physical_cores": 2,
+  "logical_cores": 4,
+  "ram_gb": 3.877574920654297,
+  "pymupdf": "1.27.2.2",
+  "psutil": "7.2.2",
+  "configuration": {
+    "command": "analyze",
+    "pdfs": [
+      "C:\\Users\\Mandish\\Desktop\\1-7.pdf",
+      "C:\\Users\\Mandish\\Desktop\\1-8.pdf",
+      "C:\\Users\\Mandish\\Desktop\\1-9.pdf"
+    ],
+    "output": "outputs",
+    "page_map": null,
+    "render_max_edge": 1800,
+    "crop_dpi": 200,
+    "sample_lines": 5,
+    "seed": 16,
+    "no_render": false
+  },
+  "coordinate_system": "PDF points, unrotated page, top-left origin; 72 pt/inch",
+  "memory_sampling_interval_seconds": 0.05
+}

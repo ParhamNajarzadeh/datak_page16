@@ -1,0 +1,32 @@
+{
+  "source_file": "C:\\Users\\Mandish\\Desktop\\1-7.pdf",
+  "sha256": "b386efd92538f39515f10f9e002af625f0d847508c5810a599b34d630ffa988d",
+  "issue_id": "1-7-b386efd9",
+  "directory": "1-7-b386efd9",
+  "page_count": 8,
+  "pdf_metadata": {
+    "format": "PDF 1.7",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "Adobe InDesign 18.2 (Windows)",
+    "producer": "GPL Ghostscript 9.50",
+    "creationDate": "D:20260930001652+03'30'",
+    "modDate": "D:20260930001652+03'30'",
+    "trapped": "",
+    "encryption": "Standard V4 R4 128-bit AES"
+  },
+  "text_characters": 140827,
+  "triage_counts": {
+    "text_present_needs_gold_check": 8
+  },
+  "continuation_markers": 0,
+  "reciprocal_candidates": 0,
+  "verified_page_mapping_count": 0,
+  "inspection_export_wall_seconds": 17.30128590017557,
+  "page_seconds_p50": 2.0697697000578046,
+  "page_seconds_p95": 2.4825924998149276,
+  "sampled_process_tree_peak_rss_mb": 179.5546875,
+  "timing_scope": "PDF inspection + render/crops + page exports; excludes OCR/layout model/stitching and final reports"
+}

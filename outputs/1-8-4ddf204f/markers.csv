@@ -1,0 +1,10 @@
+﻿marker_id,source_file,pdf_page,block_id,bbox_pdf_pt,matched_normalized_text,block_text_raw,direction,referenced_printed_page,page_token,number_candidates_needs_review,extraction_pattern,editorial_or_advertisement
+1-8-4ddf204f-p002-b0054-m000,C:\Users\Mandish\Desktop\1-8.pdf,2,1-8-4ddf204f-p002-b0054,"[259.4447937011719, 1293.4034423828125, 324.1534423828125, 1312.9874267578125]",1414  بقیه در صفحه,1414  بقیه در صفحه  بقیه در صفحه,to,,1414,[14],preceding_number_needs_review,needs_review
+1-8-4ddf204f-p002-b0061-m001,C:\Users\Mandish\Desktop\1-8.pdf,2,1-8-4ddf204f-p002-b0061,"[64.04019927978516, 1557.775146484375, 128.7490234375, 1577.359130859375]",1414  بقیه در صفحه,"1414  بقیه در صفحه
+ بقیه در صفحه ",to,,1414,[14],preceding_number_needs_review,needs_review
+1-8-4ddf204f-p009-b0112-m000,C:\Users\Mandish\Desktop\1-8.pdf,9,1-8-4ddf204f-p009-b0112,"[14.50409984588623, 1547.6185302734375, 74.78929901123047, 1563.03857421875]",11  ادامه در صفحه,11  ادامه در صفحه,to,11,11,[],preceding_number_needs_review,needs_review
+1-8-4ddf204f-p011-b0035-m000,C:\Users\Mandish\Desktop\1-8.pdf,11,1-8-4ddf204f-p011-b0035,"[947.7301025390625, 822.1973876953125, 1003.9254760742188, 837.6173706054688]",9  ادامه از صفحه,9  ادامه از صفحه,from,9,9,[],preceding_number_needs_review,needs_review
+1-8-4ddf204f-p014-b0125-m000,C:\Users\Mandish\Desktop\1-8.pdf,14,1-8-4ddf204f-p014-b0125,"[930.2852172851562, 846.7695922851562, 985.9307861328125, 866.3535766601562]",2  بقیه از صفحه,"2  بقیه از صفحه
+ بقیه از صفحه",from,2,2,[],preceding_number_needs_review,needs_review
+1-8-4ddf204f-p014-b0130-m001,C:\Users\Mandish\Desktop\1-8.pdf,14,1-8-4ddf204f-p014-b0130,"[930.2852172851562, 1035.315185546875, 985.9307861328125, 1054.899169921875]",2  بقیه از صفحه,"2  بقیه از صفحه
+ بقیه از صفحه",from,2,2,[],preceding_number_needs_review,needs_review

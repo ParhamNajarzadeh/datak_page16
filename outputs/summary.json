@@ -1,0 +1,98 @@
+[
+  {
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-7.pdf",
+    "sha256": "b386efd92538f39515f10f9e002af625f0d847508c5810a599b34d630ffa988d",
+    "issue_id": "1-7-b386efd9",
+    "directory": "1-7-b386efd9",
+    "page_count": 8,
+    "pdf_metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign 18.2 (Windows)",
+      "producer": "GPL Ghostscript 9.50",
+      "creationDate": "D:20260930001652+03'30'",
+      "modDate": "D:20260930001652+03'30'",
+      "trapped": "",
+      "encryption": "Standard V4 R4 128-bit AES"
+    },
+    "text_characters": 140827,
+    "triage_counts": {
+      "text_present_needs_gold_check": 8
+    },
+    "continuation_markers": 0,
+    "reciprocal_candidates": 0,
+    "verified_page_mapping_count": 0,
+    "inspection_export_wall_seconds": 17.30128590017557,
+    "page_seconds_p50": 2.0697697000578046,
+    "page_seconds_p95": 2.4825924998149276,
+    "sampled_process_tree_peak_rss_mb": 179.5546875,
+    "timing_scope": "PDF inspection + render/crops + page exports; excludes OCR/layout model/stitching and final reports"
+  },
+  {
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-8.pdf",
+    "sha256": "4ddf204f581bd94a0dee14df992a8c4e5580e7c5be8673af6cc46fa124853f44",
+    "issue_id": "1-8-4ddf204f",
+    "directory": "1-8-4ddf204f",
+    "page_count": 16,
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "D:20261003223435+03'30'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_characters": 363281,
+    "triage_counts": {
+      "text_present_needs_gold_check": 16
+    },
+    "continuation_markers": 6,
+    "reciprocal_candidates": 0,
+    "verified_page_mapping_count": 0,
+    "inspection_export_wall_seconds": 36.25035549979657,
+    "page_seconds_p50": 2.037202399689704,
+    "page_seconds_p95": 3.533771200105548,
+    "sampled_process_tree_peak_rss_mb": 290.40234375,
+    "timing_scope": "PDF inspection + render/crops + page exports; excludes OCR/layout model/stitching and final reports"
+  },
+  {
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-9.pdf",
+    "sha256": "94476d67682c5c319bedbc1e3201a66c84a19a0ad305f4ac2200a30e1f7aa0f4",
+    "issue_id": "1-9-94476d67",
+    "directory": "1-9-94476d67",
+    "page_count": 4,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "GPL Ghostscript 9.25",
+      "creationDate": "D:20261004012313+03'30'",
+      "modDate": "D:20261004012313+03'30'",
+      "trapped": "",
+      "encryption": "Standard V4 R4 128-bit AES"
+    },
+    "text_characters": 69461,
+    "triage_counts": {
+      "text_present_needs_gold_check": 4
+    },
+    "continuation_markers": 0,
+    "reciprocal_candidates": 0,
+    "verified_page_mapping_count": 0,
+    "inspection_export_wall_seconds": 5.985099799931049,
+    "page_seconds_p50": 1.4663355494849384,
+    "page_seconds_p95": 1.724431300535798,
+    "sampled_process_tree_peak_rss_mb": 346.45703125,
+    "timing_scope": "PDF inspection + render/crops + page exports; excludes OCR/layout model/stitching and final reports"
+  }
+]

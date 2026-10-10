@@ -1,0 +1,32 @@
+{
+  "source_file": "C:\\Users\\Mandish\\Desktop\\1-9.pdf",
+  "sha256": "94476d67682c5c319bedbc1e3201a66c84a19a0ad305f4ac2200a30e1f7aa0f4",
+  "issue_id": "1-9-94476d67",
+  "directory": "1-9-94476d67",
+  "page_count": 4,
+  "pdf_metadata": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "",
+    "producer": "GPL Ghostscript 9.25",
+    "creationDate": "D:20261004012313+03'30'",
+    "modDate": "D:20261004012313+03'30'",
+    "trapped": "",
+    "encryption": "Standard V4 R4 128-bit AES"
+  },
+  "text_characters": 69461,
+  "triage_counts": {
+    "text_present_needs_gold_check": 4
+  },
+  "continuation_markers": 0,
+  "reciprocal_candidates": 0,
+  "verified_page_mapping_count": 0,
+  "inspection_export_wall_seconds": 5.985099799931049,
+  "page_seconds_p50": 1.4663355494849384,
+  "page_seconds_p95": 1.724431300535798,
+  "sampled_process_tree_peak_rss_mb": 346.45703125,
+  "timing_scope": "PDF inspection + render/crops + page exports; excludes OCR/layout model/stitching and final reports"
+}

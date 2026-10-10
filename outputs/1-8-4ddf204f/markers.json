@@ -1,0 +1,126 @@
+[
+  {
+    "marker_id": "1-8-4ddf204f-p002-b0054-m000",
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-8.pdf",
+    "pdf_page": 2,
+    "block_id": "1-8-4ddf204f-p002-b0054",
+    "bbox_pdf_pt": [
+      259.4447937011719,
+      1293.4034423828125,
+      324.1534423828125,
+      1312.9874267578125
+    ],
+    "matched_normalized_text": "1414  بقیه در صفحه",
+    "block_text_raw": "1414  بقیه در صفحه  بقیه در صفحه",
+    "direction": "to",
+    "referenced_printed_page": null,
+    "page_token": "1414",
+    "number_candidates_needs_review": [
+      14
+    ],
+    "extraction_pattern": "preceding_number_needs_review",
+    "editorial_or_advertisement": "needs_review"
+  },
+  {
+    "marker_id": "1-8-4ddf204f-p002-b0061-m001",
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-8.pdf",
+    "pdf_page": 2,
+    "block_id": "1-8-4ddf204f-p002-b0061",
+    "bbox_pdf_pt": [
+      64.04019927978516,
+      1557.775146484375,
+      128.7490234375,
+      1577.359130859375
+    ],
+    "matched_normalized_text": "1414  بقیه در صفحه",
+    "block_text_raw": "1414  بقیه در صفحه\n بقیه در صفحه ",
+    "direction": "to",
+    "referenced_printed_page": null,
+    "page_token": "1414",
+    "number_candidates_needs_review": [
+      14
+    ],
+    "extraction_pattern": "preceding_number_needs_review",
+    "editorial_or_advertisement": "needs_review"
+  },
+  {
+    "marker_id": "1-8-4ddf204f-p009-b0112-m000",
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-8.pdf",
+    "pdf_page": 9,
+    "block_id": "1-8-4ddf204f-p009-b0112",
+    "bbox_pdf_pt": [
+      14.50409984588623,
+      1547.6185302734375,
+      74.78929901123047,
+      1563.03857421875
+    ],
+    "matched_normalized_text": "11  ادامه در صفحه",
+    "block_text_raw": "11  ادامه در صفحه",
+    "direction": "to",
+    "referenced_printed_page": 11,
+    "page_token": "11",
+    "number_candidates_needs_review": [],
+    "extraction_pattern": "preceding_number_needs_review",
+    "editorial_or_advertisement": "needs_review"
+  },
+  {
+    "marker_id": "1-8-4ddf204f-p011-b0035-m000",
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-8.pdf",
+    "pdf_page": 11,
+    "block_id": "1-8-4ddf204f-p011-b0035",
+    "bbox_pdf_pt": [
+      947.7301025390625,
+      822.1973876953125,
+      1003.9254760742188,
+      837.6173706054688
+    ],
+    "matched_normalized_text": "9  ادامه از صفحه",
+    "block_text_raw": "9  ادامه از صفحه",
+    "direction": "from",
+    "referenced_printed_page": 9,
+    "page_token": "9",
+    "number_candidates_needs_review": [],
+    "extraction_pattern": "preceding_number_needs_review",
+    "editorial_or_advertisement": "needs_review"
+  },
+  {
+    "marker_id": "1-8-4ddf204f-p014-b0125-m000",
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-8.pdf",
+    "pdf_page": 14,
+    "block_id": "1-8-4ddf204f-p014-b0125",
+    "bbox_pdf_pt": [
+      930.2852172851562,
+      846.7695922851562,
+      985.9307861328125,
+      866.3535766601562
+    ],
+    "matched_normalized_text": "2  بقیه از صفحه",
+    "block_text_raw": "2  بقیه از صفحه\n بقیه از صفحه",
+    "direction": "from",
+    "referenced_printed_page": 2,
+    "page_token": "2",
+    "number_candidates_needs_review": [],
+    "extraction_pattern": "preceding_number_needs_review",
+    "editorial_or_advertisement": "needs_review"
+  },
+  {
+    "marker_id": "1-8-4ddf204f-p014-b0130-m001",
+    "source_file": "C:\\Users\\Mandish\\Desktop\\1-8.pdf",
+    "pdf_page": 14,
+    "block_id": "1-8-4ddf204f-p014-b0130",
+    "bbox_pdf_pt": [
+      930.2852172851562,
+      1035.315185546875,
+      985.9307861328125,
+      1054.899169921875
+    ],
+    "matched_normalized_text": "2  بقیه از صفحه",
+    "block_text_raw": "2  بقیه از صفحه\n بقیه از صفحه",
+    "direction": "from",
+    "referenced_printed_page": 2,
+    "page_token": "2",
+    "number_candidates_needs_review": [],
+    "extraction_pattern": "preceding_number_needs_review",
+    "editorial_or_advertisement": "needs_review"
+  }
+]
